@@ -1,0 +1,30 @@
+.container{
+    width: 1000px;
+    height: 800px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.box-one{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    left: 260px;
+}
+.box-two{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    z-index: 1;
+    position: absolute;
+    top: 140px;
+}
+.box-three{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    top: 260px;
+    right: 260px;
+}
